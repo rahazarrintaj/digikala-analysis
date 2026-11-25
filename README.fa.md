@@ -137,8 +137,7 @@
 │   └── data_analysis.ipynb
 ├── dashboard/
 │   ├── digikala_dashboard.pbix
-│   ├── digikala_dashboard.pdf
-│   └── digikala_dashboard.png
+│   └── digikala_dashboard.pdf
 ├── excel/
 │   └── digikala_analysis.xlsx
 ├── data/processed/        # small summary tables used by the dashboard
