@@ -24,7 +24,7 @@ An end-to-end analysis of a sample of Digikala order data: importing and cleanin
 
 ## Data
 
-- **Source:** Kaggle "Digikala" dataset (5 tables: `products`, `price`, `customers` (actually the order-lines table), `comments` and `comments_confirm`), loaded into the MySQL schema `digikala_kaggle`.
+- **Source:** Kaggle "Digikala" dataset (5 tables: `products`, `price`, `orders` (actually the order-lines table), `comments` and `comments_confirm`), loaded into the MySQL schema `digikala_kaggle`.
 - **Table used:** only the orders table: 200,000 rows, 197,631 orders, 151,634 customers, 906 cities, from 27 Sep 2013 to 11 Dec 2018.
 - **Why only one table:** joining orders to `products` matches only 3.45% of rows (2.6% of amount), so category analysis is not possible. The `price` table covers a single week (2018-11-19 to 2018-11-26).
 - **Currency:** not documented in the dataset, so amounts are reported in the dataset's own units.
